@@ -1,4 +1,32 @@
-baseURL = "http://example.org/"
+baseURL = "https://chalupecky.dev/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Vladimír Chalupecký, Ph.D."
+copyright = "&copy; Copyright 2016 Vladimír Chalupecký"
 theme = "whiteplain"
+
+[params]
+
+[params.author]
+# name = "Vladimír Chalupecký, Ph.D."
+avatar = "/avatar.png"
+email = "vladimir@chalupecky.dev"
+github = "vladimir-ch"
+linkedin = "vladimirchalupecky"
+twitter = "vchalupecky"
+
+# Header Menu
+[[menu.main]]
+  name = "Open Source"
+  identifier = "oss"
+  url = "/oss/"
+  weight = 1
+[[menu.main]]
+  name = "Publications"
+  identifier = "publications"
+  url = "/publications/"
+  weight = 2
+[[menu.main]]
+  name = "Talks"
+  identifier = "talks"
+  url = "/talks/"
+  weight = 3
