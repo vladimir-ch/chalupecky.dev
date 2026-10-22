@@ -1,10 +1,11 @@
 baseURL = "https://www.chalupecky.dev/"
 locale = "en-us"
 title = "Vladimír Chalupecký, Ph.D."
-copyright = "&copy; Copyright 2016 Vladimír Chalupecký"
+copyright = "Vladimír Chalupecký"
 theme = "whiteplain"
 
 [params]
+copyrightStartYear = 2016
 useCDN = true
 
 [params.author]
@@ -18,17 +19,12 @@ mastodon = "@vchalupecky"
 
 # Header Menu
 [[menu.main]]
-  name = "Open Source"
+  name = "Engineering & open source"
   identifier = "oss"
   url = "/oss/"
   weight = 1
 [[menu.main]]
-  name = "Publications"
-  identifier = "publications"
-  url = "/publications/"
+  name = "Research"
+  identifier = "research"
+  url = "/research/"
   weight = 2
-[[menu.main]]
-  name = "Talks"
-  identifier = "talks"
-  url = "/talks/"
-  weight = 3

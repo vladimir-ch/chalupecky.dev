@@ -2,9 +2,14 @@
 date = "2015-12-04T14:58:26+09:00"
 title = "Publications"
 weight = 1
+description = "Publications from Vladimír Chalupecký’s earlier research career in applied mathematics and scientific computing."
+eyebrow = "Research archive"
+subtitle = "Articles, preprints, books, and thesis from my earlier research career."
+research = true
+archiveList = true
 +++
 
-# Peer-reviewed Articles
+## Peer-reviewed Articles
 
 * V. Chalupecký, A. Muntean, [_Semi-discrete finite difference multiscale
   scheme for a concrete corrosion model: a priori estimates and
@@ -29,7 +34,7 @@ weight = 1
   Allen-Cahn equation_](http://dx.doi.org/10.1016/j.apnum.2004.05.001). Applied
   Numerical Mathematics&nbsp;**51** (2004), pp. 187–205
 
-# Peer-reviewed Conference Contributions
+## Peer-reviewed Conference Contributions
 
 * V. Chalupecký, M. Kimura, [_An energy-consistent model of dislocation dynamics
   in an elastic body_](http://dx.doi.org/10.1007/978-4-431-56104-0_3).
@@ -53,7 +58,7 @@ weight = 1
   Physical Engineering, Czech Technical University in Prague, 2005, ISBN
   80-01-03181-0, pp. 11–24
 
-# Preprints
+## Preprints
 
 Preprints on [arXiv.org](http://arxiv.org/a/chalupecky_v_1)
 
@@ -90,7 +95,7 @@ Preprints on [arXiv.org](http://arxiv.org/a/chalupecky_v_1)
   and Their Applications, Prague, August 27–31, 2001. [Part 2] Papers. Masaryk
   University, Brno, 2002. pp. 83–101
 
-# Books and Book Chapters
+## Books and Book Chapters
 
 * A. Muntean, V. Chalupecký, [_Homogenization method and multiscale
   modeling_](http://gcoe-mi.jp/english/publish_list/pub_inner/id:2/cid:15).  MI
@@ -103,14 +108,14 @@ Preprints on [arXiv.org](http://arxiv.org/a/chalupecky_v_1)
   Problems](http://rd.springer.com/book/10.1007%2F3-540-35657-6), Springer
   (2006)
 
-# Proceedings Editor
+## Proceedings Editor
 
 * H. Itou, M. Kimura, V. Chalupecký, K. Ohtsuka, D. Tagami, A. Takada (Eds.),
   [Mathematical Analysis of Continuum Mechanics and Industrial Applications](http://link.springer.com/book/10.1007%2F978-981-10-2633-1).
   Proceedings of the International Conference CoMFoS15. Mathematics for
   Industry, Vol. 26, Springer (2017)
 
-# PhD Thesis
+## PhD Thesis
 
 Vladimír Chalupecký, [_Non-linear diffusion PDEs and their
 application_](http://mmg.fjfi.cvut.cz/~chalupecky/pdf/Chalupecky-phd-thesis.pdf).

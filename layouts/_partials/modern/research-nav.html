@@ -1,0 +1,5 @@
+<nav class="research-navigation" aria-label="Research navigation">
+  {{ range slice (dict "path" "/research/" "label" "Overview") (dict "path" "/publications/" "label" "Publications") (dict "path" "/talks/" "label" "Talks & activities") }}
+  <a href="{{ .path | relURL }}"{{ if eq $.RelPermalink (.path | relURL) }} aria-current="page"{{ end }}>{{ .label }}</a>
+  {{ end }}
+</nav>

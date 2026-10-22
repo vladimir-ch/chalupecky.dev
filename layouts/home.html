@@ -1,8 +1,60 @@
-{{ define "main" }}
-  <div class="main" role="main">
-    <article class="article about">
-      {{ partial "author.html" . }}
-      {{ .Content }}
-    </article>
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Locale }}">
+{{ partial "modern/head.html" . }}
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    {{ partial "modern/header.html" . }}
+
+    <main id="main" tabindex="-1">
+      <article class="introduction" aria-labelledby="intro-title">
+        <div class="introduction-copy">
+          <p class="eyebrow">{{ .Params.subtitle }}</p>
+          <h1 id="intro-title">{{ .Title }}</h1>
+          <div class="biography">{{ .Content }}</div>
+          {{ with .Site.Params.author.email }}
+          <a class="contact-link" href="mailto:{{ . }}">Get in touch <span aria-hidden="true">↗</span></a>
+          {{ end }}
+        </div>
+
+        <aside class="profile" aria-label="Profile and social links">
+          <div class="portrait">
+            <img src="{{ .Site.Params.author.avatar | relURL }}" alt="Vladimír’s illustrated Go gopher avatar" width="400" height="400" fetchpriority="high">
+          </div>
+          <p class="profile-label" id="elsewhere-heading">Elsewhere</p>
+          <ul class="social-links" aria-labelledby="elsewhere-heading">
+            {{ with .Site.Params.author.github }}
+            <li><a href="https://github.com/{{ . }}" rel="me">GitHub <span aria-hidden="true">↗</span></a></li>
+            {{ end }}
+            {{ with .Site.Params.author.linkedin }}
+            <li><a href="https://www.linkedin.com/in/{{ . }}" rel="me">LinkedIn <span aria-hidden="true">↗</span></a></li>
+            {{ end }}
+            {{ with .Site.Params.author.mastodon }}
+            <li><a href="https://hachyderm.io/{{ . }}" rel="me">Mastodon <span aria-hidden="true">↗</span></a></li>
+            {{ end }}
+            {{ with .Site.Params.author.twitter }}
+            <li><a href="https://twitter.com/{{ . }}" rel="me">Twitter <span aria-hidden="true">↗</span></a></li>
+            {{ end }}
+          </ul>
+        </aside>
+      </article>
+
+      <section class="explore" aria-labelledby="explore-title">
+        <h2 id="explore-title">Work &amp; background</h2>
+        <div class="explore-links explore-links-pair">
+          <a class="explore-link" href="{{ "oss/" | relURL }}">
+            <h3>Engineering &amp; open source <span aria-hidden="true">↗</span></h3>
+            <p>Go services, networking, and open-source contributions.</p>
+          </a>
+          <a class="explore-link" href="{{ "research/" | relURL }}">
+            <h3>Research <span aria-hidden="true">↗</span></h3>
+            <p>Publications, talks, and past affiliations.</p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    {{ partial "modern/footer.html" . }}
   </div>
-{{ end }}
+</body>
+</html>

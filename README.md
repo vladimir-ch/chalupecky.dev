@@ -61,6 +61,7 @@ make build HUGO_ARGS="--panicOnWarning"
 | `hugo.toml` | Site configuration, primary URL, menus, and author settings |
 | `content/` | Markdown pages and their front matter |
 | `layouts/` | Site-specific homepage, section templates, social links, and RSS |
+| `assets/css/site.css` | Shared styles for redesigned pages, processed and fingerprinted by Hugo |
 | `static/` | Site-specific files copied directly into the output |
 | `themes/whiteplain/` | Vendored Whiteplain theme, including its original license |
 | `netlify.toml` | Hugo version and production/preview build settings |
@@ -69,9 +70,39 @@ make build HUGO_ARGS="--panicOnWarning"
 Whiteplain is committed directly to this repository, so there are no submodules
 or theme downloads during a build. Its templates have local compatibility changes
 for current Hugo: the new template directory structure, locale API, and embedded
-partials. Its CSS, JavaScript, images, and the site's Markdown are unchanged.
+partials. The main pages use project-owned templates and shared styles, without the theme’s
+CSS, JavaScript, or CDN requests. Whiteplain still supplies the utility pages
+(such as the 404 page and empty taxonomies).
 The upstream README and example site under the theme are reference material,
 not the configuration used to build this website.
+
+### Redesigned pages
+
+Edit the introduction in `content/_index.md`, including its title, subtitle, and
+description. The layout is in `layouts/home.html`; its profile and contact links
+use the author settings in `hugo.toml`. The supporting-page links and their short
+descriptions are in the homepage template.
+
+Engineering & open source retains the `/oss/` URL. Edit its content in
+`content/oss/_index.md` and its layout in `layouts/oss/section.html`. The redesigned
+pages share `layouts/_partials/modern/` and `assets/css/site.css`.
+
+The Research overview is in `content/research/_index.md`. Publications and talks
+retain their original `/publications/` and `/talks/` URLs and content files. Their
+shared layout is `layouts/_partials/modern/article.html`; front matter supplies
+the eyebrow, introduction, research navigation, and bibliography list styling.
+Research pages have `research = true`; `archiveList = true` enables the more
+spacious reference lists. Heading text generates the on-page navigation.
+
+The redesigned pages use system fonts, the existing avatar, and plain CSS with automatic
+light/dark colours. Hugo minifies and fingerprints `assets/css/site.css`; no
+additional tooling is required. Preview with `make serve` and check both wide and
+narrow windows. Publication and event records retain their original citations, dates, and links.
+
+`layouts/_partials/copyright.html` renders the copyright for all page footers and
+RSS feeds. The owner is `copyright` in `hugo.toml`, and `params.copyrightStartYear`
+is the first year. The final year comes from the build date, so the range updates
+on the next build in a new year.
 
 `layouts/all.rss.xml` preserves the existing feed metadata and dates. The site
 currently has section pages but no regular posts; the newer built-in RSS template

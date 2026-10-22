@@ -1,0 +1,7 @@
+    <footer class="site-footer">
+      <p>{{ partial "copyright.html" . }}</p>
+      <div class="footer-links">
+        {{ with .OutputFormats.Get "RSS" }}<a href="{{ .RelPermalink }}">RSS</a>{{ end }}
+        <a href="https://gohugo.io/">Built with Hugo</a>
+      </div>
+    </footer>

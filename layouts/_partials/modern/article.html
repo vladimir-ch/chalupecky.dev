@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Locale }}">
+{{ partial "modern/head.html" . }}
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    {{ partial "modern/header.html" . }}
+    <main id="main" tabindex="-1" class="article-page">
+      <header class="page-heading">
+        {{ with .Params.eyebrow }}<p class="eyebrow">{{ . }}</p>{{ end }}
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.subtitle }}<p class="page-summary">{{ . }}</p>{{ end }}
+      </header>
+      {{ if .Params.research }}{{ partial "modern/research-nav.html" . }}{{ end }}
+      <div class="reading-layout">
+        <aside class="page-index" aria-label="On this page">
+          <p class="profile-label">On this page</p>
+          {{ .TableOfContents }}
+        </aside>
+        <article class="prose{{ if .Params.archiveList }} archive-list{{ end }}" aria-label="{{ .Title }}">
+          {{ .Content }}
+          {{ with .Site.Params.author.email }}
+          <a class="contact-link" href="mailto:{{ . }}">Get in touch <span aria-hidden="true">↗</span></a>
+          {{ end }}
+        </article>
+      </div>
+    </main>
+    {{ partial "modern/footer.html" . }}
+  </div>
+</body>
+</html>

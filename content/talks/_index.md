@@ -1,8 +1,16 @@
 +++
 date = "2015-12-04T14:56:17+09:00"
-title = "Conferences, Workshops, Seminars"
+title = "Talks & academic activities"
 weight = 1
+description = "Presentations, conference participation, research stays, and organising work from Vladimír Chalupecký’s earlier research career."
+eyebrow = "Research archive"
+subtitle = "Presentations, conference participation, research stays, and organising work."
+research = true
+archiveList = true
 +++
+
+## Conferences, workshops & seminars
+
 
 * [7th Workshop on Mathematical Analysis for Nonlinear Phenomena](https://sites.google.com/site/masatowebj/wmanp01),
   Kanazawa University, Kanazawa, Japan, June 29, 2016 (oral presentation: _A
@@ -92,7 +100,7 @@ weight = 1
 * NATO Workshop Modern Methods in Scientific Computing and Applications,
   Universite de Montreal, Montreal, Canada, July 2001
 
-# Research and Study Stays
+## Research and Study Stays
 
 * One-month project with the EU project HPC-Europa on high-performance
   computing, RWTH Aachen University, Germany, January 2007
@@ -102,7 +110,7 @@ weight = 1
 * Study stay with the EU project Erasmus, Universidad Miguel Hernandez, Elche,
   Spain, October 2003–March 2004
 
-# Organizing Committee
+## Organizing Committee
 
 * [CoMFoS15](https://sites.google.com/site/comfos15/): Mathematical Analysis of
   Continuum Mechanics and Industrial Applications, Nishijin Plaza, Kyushu

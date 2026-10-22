@@ -1,0 +1,2 @@
+{{- $year := now.Year -}}
+© {{ with .Site.Params.copyrightStartYear }}{{ if lt (int .) $year }}{{ . }}–{{ end }}{{ end }}{{ $year }} {{ .Site.Copyright -}}
