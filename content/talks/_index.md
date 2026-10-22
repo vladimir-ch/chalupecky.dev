@@ -12,22 +12,22 @@ archiveList = true
 ## Conferences, workshops & seminars
 
 
-* [7th Workshop on Mathematical Analysis for Nonlinear Phenomena](https://sites.google.com/site/masatowebj/wmanp01),
+* [7th Workshop on Mathematical Analysis for Nonlinear Phenomena](https://sites.google.com/site/masatowebj/wmanp),
   Kanazawa University, Kanazawa, Japan, June 29, 2016 (oral presentation: _A
   two-scale bulk-surface model of thin film growth by liquid phase epitaxy_)
-* [CoMFoS15](https://sites.google.com/site/comfos15/): Mathematical Analysis of
+* [CoMFoS15](https://www.apcmfi.org/event/view/62): Mathematical Analysis of
   Continuum Mechanics and Industrial Applications, Nishijin Plaza, Kyushu
   University, Fukuoka, Japan, November 16–18, 2015 (conference presentation:
   _Multi-scale simulations of heart electrophysiology and mechanics_)
-* [MEIS2015](http://mcg.imi.kyushu-u.ac.jp/meis2015/): Mathematical Progress in
+* [MEIS2015](https://www.imi.kyushu-u.ac.jp/en/publication/lecture-note/?slug=en-l-n-2015 "MEIS2015 proceedings record (MI Lecture Note Vol. 64)"): Mathematical Progress in
   Expressive Image Synthesis, Fukuoka, Japan, September 25–27, 2015
-* [MEIS2013](http://mcg.imi.kyushu-u.ac.jp/meis2013/?lang=en): Mathematical
+* [MEIS2013](https://www.imi.kyushu-u.ac.jp/en/publication/lecture-note/?slug=en-l-n-2013 "MEIS2013 proceedings record (MI Lecture Note Vol. 50)"): Mathematical
   Progress in Expressive Image Synthesis, Fukuoka, Japan, October 21–13, 2013
   (conference presentation: _Mesh deformation with penalty-based collision
   response_)
 * MICCAI2013, Workshop on Mesh Processing in Medical Image Analysis, Nagoya,
   Japan, September 26, 2013
-* [CJS2013](http://www.isc.meiji.ac.jp/~cjs/cjs2013/): Czech-Japanese Seminar
+* [CJS2013](https://cmma.mims.meiji.ac.jp/events/files/2013CJS-program.pdf "Conference programme (PDF)"): Czech-Japanese Seminar
   in Applied Mathematics, Meiji University, Tokyo, Japan, September 5–8, 2013
 * SIGGRAPH2012, Los Angeles Convention Center, USA, August 4–9, 2012
 * Maths and Applications Sussex Seminar, University of Sussex, United Kingdom,
@@ -40,7 +40,7 @@ archiveList = true
 * Forum Math-for-Industry 2011, East-West Center, University of Hawai’i at
   Mānoa, October 24–28, 2011 (poster presentation: _Finite difference
   multiscale scheme for a concrete corrosion model_)
-* [CoMFoS 2011](http://comfos.org/jp/Y2011/CoMFoS11/index.html), Hiroshima
+* [CoMFoS 2011](https://sites.google.com/a/comfos.org/comfos/meetings/year-2011/comfos11), Hiroshima
   Kokusai Gakuin University, October 8–10, 2011 (conference presentation: _A
   two-scale model of acid attack on concrete_)
 * CASA Mini-symposium, Technical University Eindhoven, September 7, 2011
@@ -55,7 +55,7 @@ archiveList = true
   University of Tokyo, Tokyo, Japan, October 25–29, 2010
 * Forum “Math-for-Industry” 2010, Hilton Fukuoka Sea Hawk, Fukuoka, Japan,
   October 21–23, 2010
-* [CJS2010](http://geraldine.fjfi.cvut.cz/cjs2010/): Czech-Japanese Seminar in
+* [CJS2010](https://geraldine.fjfi.cvut.cz/cjs2010/): Czech-Japanese Seminar in
   Applied Mathematics, Prague and Telč, Czech Republic, August 31–September 4,
   2010 (conference presentation: _Numerical analysis of a two-scale model of
   acid attack on concrete_)
@@ -77,15 +77,15 @@ archiveList = true
   Planck Institute for the Physics of Complex Systems, Dresden, Germany,
   November 2008
 * [Slovak–Japan Workshop on Computational
-  Mathematics](http://www.math.sk/mikula/skjp/), Bratislava and [Kocovce
-  Chateau](http://www.slovenskehrady.sk/kastiel-kocovce/en), Slovakia,
+  Mathematics](https://www.math.sk/mikula/skjp/), Bratislava and [Kocovce
+  Chateau](https://www.slovenskehrady.sk/kastiel-kocovce/en), Slovakia,
   September 9–13, 2006 (conference presentation: _Numerical Studies of a
   Two-Scale Model for Liquid-Phase Epitaxy with Convection_)
 * Workshop on Applied Mathematics, Czech Technical University in Prague, Czech
   Republic, August 2005
 * INdAM Workshop "Dissipative models in phase transitions", Cortona, Italy,
   September 2004
-* [CJS2004](http://geraldine.fjfi.cvut.cz/cjs2004/cjs.php): Czech-Japanese
+* [CJS2004](https://geraldine.fjfi.cvut.cz/cjs2004/cjs.php): Czech-Japanese
   Seminar in Applied Mathematics, Czech Technical University in Prague, Czech
   Republic, August 2004
 * ENUMATH: The European Conference on Numerical Mathematics and Advanced
@@ -112,7 +112,7 @@ archiveList = true
 
 ## Organizing Committee
 
-* [CoMFoS15](https://sites.google.com/site/comfos15/): Mathematical Analysis of
+* [CoMFoS15](https://www.apcmfi.org/event/view/62): Mathematical Analysis of
   Continuum Mechanics and Industrial Applications, Nishijin Plaza, Kyushu
   University, Fukuoka, Japan, November 16–18, 2015
 * [CoMFoS16](https://sites.google.com/site/comfos16/): Mathematical Analysis of

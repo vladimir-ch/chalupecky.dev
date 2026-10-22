@@ -14,8 +14,8 @@ avatar = "/avatar.png"
 email = "vladimir@chalupecky.dev"
 github = "vladimir-ch"
 linkedin = "vladimirchalupecky"
-twitter = "vchalupecky"
 mastodon = "@vchalupecky"
+bluesky = "chalupecky.dev"
 
 # Header Menu
 [[menu.main]]

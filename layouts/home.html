@@ -32,8 +32,8 @@
             {{ with .Site.Params.author.mastodon }}
             <li><a href="https://hachyderm.io/{{ . }}" rel="me">Mastodon <span aria-hidden="true">↗</span></a></li>
             {{ end }}
-            {{ with .Site.Params.author.twitter }}
-            <li><a href="https://twitter.com/{{ . }}" rel="me">Twitter <span aria-hidden="true">↗</span></a></li>
+            {{ with .Site.Params.author.bluesky }}
+            <li><a href="https://bsky.app/profile/{{ . }}" rel="me">Bluesky <span aria-hidden="true">↗</span></a></li>
             {{ end }}
           </ul>
         </aside>

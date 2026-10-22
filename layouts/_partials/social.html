@@ -7,8 +7,8 @@
     {{- with .linkedin }}
     <li><a href="//linkedin.com/in/{{ . }}" rel="me" target="_blank"><i class="fab fa-linkedin"></i></a></li>
     {{- end }}
-    {{- with .twitter }}
-    <li><a href="//twitter.com/{{ . }}" rel="me" target="_blank"><i class="fab fa-twitter"></i></a></li>
+    {{- with .bluesky }}
+    <li><a href="https://bsky.app/profile/{{ . }}" rel="me" target="_blank">Bluesky</a></li>
     {{- end }}
     {{- with .facebook }}
     <li><a href="//facebook.com/{{ . }}" rel="me" target="_blank"><i class="fab fa-facebook"></i></a></li>

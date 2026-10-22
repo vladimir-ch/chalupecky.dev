@@ -28,12 +28,12 @@ These were the main areas of my earlier research and scientific software work:
 
 ## Past affiliations
 
-* [Biomedical Simulation Project](http://jp.fujitsu.com/solutions/medical///nhic/seitai/index.html),
+* Biomedical Simulation Project,
   Fujitsu Limited, Tokyo, Japan
-* [Institute of Math-for-Industry](http://www.imi.kyushu-u.ac.jp/), Kyushu
+* [Institute of Math-for-Industry](https://www.imi.kyushu-u.ac.jp/en/), Kyushu
   University, Japan
 * Faculty of Mathematics, Kyushu University, Japan
-* [Mathematical Modeling Group](http://mmg.fjfi.cvut.cz/), [Department of
-  Mathematics](http://km.fjfi.cvut.cz/en/), [Faculty of Nuclear Sciences and
-  Physical Engineering](https://www.fjfi.cvut.cz/), Czech Technical University
+* [Mathematical Modeling Group](https://mmg.fjfi.cvut.cz/), [Department of
+  Mathematics](https://km.fjfi.cvut.cz/en), [Faculty of Nuclear Sciences and
+  Physical Engineering](https://fjfi.cvut.cz/en), Czech Technical University
   in Prague, Czech Republic
