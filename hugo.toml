@@ -1,5 +1,5 @@
-baseURL = "https://chalupecky.dev/"
-languageCode = "en-us"
+baseURL = "https://www.chalupecky.dev/"
+locale = "en-us"
 title = "Vladimír Chalupecký, Ph.D."
 copyright = "&copy; Copyright 2016 Vladimír Chalupecký"
 theme = "whiteplain"

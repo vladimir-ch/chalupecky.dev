@@ -1,0 +1,14 @@
+[build]
+  command = "make build"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.168.0"
+  HUGO_ENVIRONMENT = "production"
+  TZ = "Europe/Berlin"
+
+[context.deploy-preview]
+  command = 'make build HUGO_ARGS="--baseURL ${DEPLOY_PRIME_URL}"'
+
+[context.branch-deploy]
+  command = 'make build HUGO_ARGS="--baseURL ${DEPLOY_PRIME_URL}"'
